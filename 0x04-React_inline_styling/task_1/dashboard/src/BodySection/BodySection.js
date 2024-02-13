@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './BodySection.css';
+import './BodySection.js';
 
 class BodySection extends Component {
   constructor(props) {
