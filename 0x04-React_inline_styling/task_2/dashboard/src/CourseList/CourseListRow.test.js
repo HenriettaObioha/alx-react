@@ -1,6 +1,15 @@
-import React from "react";
+import React from 'react';
 import { shallow } from 'enzyme';
-import CourseListRow from "./CourseListRow";
+import { StyleSheetTestUtils } from 'aphrodite';
+import CourseListRow from './CourseListRow';
+
+beforeEach(() => {
+	StyleSheetTestUtils.suppressStyleInjection();
+});
+
+afterEach(() => {
+	StyleSheetTestUtils.clearBufferAndResumeStyleInjection();
+});;
 
 describe('Basic React Tests - <CourseListRow />', function() {
 	it('Should render without crashing', () => {
