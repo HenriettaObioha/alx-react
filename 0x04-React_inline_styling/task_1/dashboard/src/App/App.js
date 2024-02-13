@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StyleSheet, css } from 'aphrodite';
+import { /*StyleSheet, css*/ js } from 'aphrodite';
 import Header from '../Header/Header';
 import Login from '../Login/Login';
 import BodySection from '../BodySection/BodySection';
