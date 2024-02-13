@@ -1,6 +1,6 @@
 import React, { Fragment }from 'react';
 import PropTypes from 'prop-types';
-import { StyleSheet, css } from 'aphrodite';
+import { /*StyleSheet, css,*/ js} from 'aphrodite';
 import { getLatestNotification } from '../utils/utils';
 import NotificationItem from './NotificationItem';
 import closeIcon from '../assets/close-icon.png';
